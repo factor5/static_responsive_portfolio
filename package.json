@@ -2,13 +2,16 @@
   "name": "modern_portfolio",
   "version": "1.0.0",
   "description": "Responsive portfolio website",
+  "homepage": "https://factor5.github.io/static_responsive_portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Svilen Velikov",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
